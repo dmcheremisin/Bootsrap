@@ -1,0 +1,22 @@
+.navbar-custom {
+    background-color:#2b50c0;
+    color:#ffffff;
+    border-radius:0;
+}
+.navbar-custom .navbar-brand {
+    color: #ecf0f1;
+}
+.jumbotron {
+    background-color: #fff;
+}
+.icon-bar {
+    background-color: white;
+}
+.social-img {
+    width: 200px;
+    height:200px;
+}
+.sidebar-header {
+    text-align: center;
+    margin-top: 20px;
+}
