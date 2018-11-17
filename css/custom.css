@@ -38,8 +38,6 @@
 .image-upload{
     width: 200px;
     height: 200px;
-    text-align: center;
-    line-height: 200px;
 }
 .image-drop{
     width: 208px;
@@ -48,12 +46,8 @@
     text-align: center;
     line-height: 208px;
 }
-.content-center{
-    height: 200px;
-}
 .btn-vertical {
     padding-top: 70px;
-    padding-left: 70px;
 }
 .btn-left {
     margin-left: 70px;
