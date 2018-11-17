@@ -58,3 +58,6 @@
 .border-dotted-big {
     border: 2px dotted black;
 }
+.drop-text {
+    font-size: 18px;
+}
