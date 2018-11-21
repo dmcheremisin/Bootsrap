@@ -16,6 +16,14 @@
     width: 200px;
     height:200px;
 }
+.img-message {
+    width: 50px;
+    height:50px;
+}
+.panel-right {
+    text-align: right;
+    background-color: #d9edf7;
+}
 .social-img-profile {
     width: 200px;
     height:200px;
