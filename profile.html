@@ -47,7 +47,7 @@
                     <a href="./messages.html" class="list-group-item">Messages</a>
                     <a href="./friends.html" class="list-group-item">Friends</a>
                     <a href="./users.html" class="list-group-item">Users</a>
-                    <a href="./profile.html" class="list-group-item">Settings</a>
+                    <a href="./settings.html" class="list-group-item">Settings</a>
                 </div>
             </div>
             <div class="panel panel-default">
@@ -63,84 +63,49 @@
             </div>
         </div>
         <div class="col-md-9">
-            <h2>Your avatar.</h2>
-            <div class="profile-block">
-                <div>
-                    <div class="image-drop border-dotted" ondrop="dragAndDrop(event)" ondragover="dragEnter(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)">
-                        <p class="drop-text">Drop your image here.</p>
+            <div class="profile-block profile-before">
+                <div class="image-left">
+                    <div class="card">
+                        <img class="img-circle img-thumbnail social-img" src="./img/1.jpg" alt="Your profile image">
+                        <h3>Tyrion Lanister</h3>
                     </div>
-                    <div class="btn-vertical">
-                        <button class="btn btn-lg btn-success btn-left">Update avatar</button>
-                    </div>
-                    <div class="image-right">
-                        <div class="card">
-                            <img class="img-circle img-thumbnail social-img" src="./img/1.jpg" alt="Your profile image">
+                </div>
+
+                <div class="panel-right">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Profile Info</h3>
+                        </div>
+                        <div class="list-group">
+                            <p class="list-group-item">First name: Tyron</p>
+                            <p class="list-group-item">Last name: Lanister</p>
+                            <p class="list-group-item">Birth date: 11.01.1989</p>
+                            <p class="list-group-item">Gender: Male</p>
+                            <p class="list-group-item">Phone: +7 999 999 99 99</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="profile-block">
-                <h2>Your profile.</h2>
-                <form action="/changeProfile" method="post">
-                    <div class="panel panel-default">
-                        <div class="list-group">
-
-                            <div class="list-group-item">
-                                <label for="email">Email: <input type="text" name="email" class="form-control"
-                                                                 id="email" disabled/></label>
-                            </div>
-                            <div class="list-group-item">
-                                <label for="firstname">First name: <input type="text" name="firstname"
-                                                                          class="form-control"
-                                                                          id="firstname"/></label>
-                            </div>
-                            <div class="list-group-item">
-                                <label for="lastname">Last name: <input type="text" name="lastname" class="form-control"
-                                                                        id="lastname"/></label>
-                            </div>
-                            <div class="list-group-item">
-                                <label for="dob">Birth date: <input type="date" name="dob" class="form-control"
-                                                                    id="dob"/></label>
-                            </div>
-                            <div class="list-group-item"> Gender:
-                                <label class="radio-inline"><input type="radio" name="sex" value="1">Male</label>
-                                <label class="radio-inline"><input type="radio" name="sex" value="2">Female</label>
-                            </div>
-                            <div class="list-group-item">
-                                <label for="phone">Phone: <input type="text" name="phone" class="form-control"
-                                                                 id="phone"/></label>
-                            </div>
+                <h3>Recent Message:</h3>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="card">
+                            <a href="#"><img class="img-circle img-thumbnail img-message" src="./img/1.jpg" /> Tyrion</a>&nbsp; to &nbsp;
+                            <a href="#"><img class="img-circle img-thumbnail img-message" src="./img/2.png" /> Cersei</a>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-success">Change profile</button>
-                </form>
+                    <div class="panel-body"><a href="conversation.html">Hello! How are you?</a></div>
+                </div>
             </div>
             <div class="profile-block">
-                <h2>Change password</h2>
-                <form action="/changePassword" method="post">
-                    <div class="panel panel-default">
-                        <div class="list-group">
-
-                            <div class="list-group-item">
-                                <label for="oldpassword">Old Password: <input type="password" name="oldpassword"
-                                                                              class="form-control"
-                                                                              id="oldpassword"/></label>
-                            </div>
-                            <div class="list-group-item">
-                                <label for="newpassword">New Password: <input type="password" name="newpassword"
-                                                                              class="form-control"
-                                                                              id="newpassword"/></label>
-                            </div>
-                            <div class="list-group-item">
-                                <label for="repeatpassword">Repeat Password: <input type="password"
-                                                                                    name="repeatpassword"
-                                                                                    class="form-control"
-                                                                                    id="repeatpassword"/></label>
-                            </div>
-                        </div>
+                <h3>Your friends:</h3>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <a class="profile-friend" href="profile.html"><img class="img-circle img-thumbnail img-message" src="./img/2.png" />Cersei</a>
+                        <a class="profile-friend" href="profile.html"><img class="img-circle img-thumbnail img-message" src="./img/3.jpeg"/>Jaime</a>
                     </div>
-                    <button type="submit" class="btn btn-lg btn-success">Change password</button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
